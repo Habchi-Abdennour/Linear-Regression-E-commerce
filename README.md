@@ -57,13 +57,12 @@ These results guided feature interpretation but **no feature was removed** durin
 - All numerical features were used without scaling
 
 ### 📐 Model Equation
-\[
-\hat{y} = \beta_0 +
-25.72(\text{Avg. Session Length}) +
-38.60(\text{Time on App}) +
-0.46(\text{Time on Website}) +
-61.67(\text{Length of Membership})
-\]
+y_hat = β0 
+        + 25.72 * Avg. Session Length
+        + 38.60 * Time on App
+        + 0.46 * Time on Website
+        + 61.67 * Length of Membership
+
 
 ---
 
@@ -113,5 +112,3 @@ The company should prioritize improving the **mobile app experience** rather tha
 - Jupyter Notebook
 
 ---
-
-## 📁 Repository Structure
